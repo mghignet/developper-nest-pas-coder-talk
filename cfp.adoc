@@ -2,8 +2,8 @@
 
 ## Problèmes constatés
 
-J'ai récemment eu à répondre à la question "Tu es développeur ? Mais ça consiste en quoi exactement ?", et... J'ai eu du mal à donner une réponse précise.
-
+J'ai (encore) récemment eu à répondre à la question "Tu es développeur ? Mais ça consiste en quoi exactement ?", et... J'ai eu du mal à donner une réponse précise. +
+Les gens ont une vision floue de ce que nous faisons, mais... Avons-nous nous-même une vision précise de notre job ?
 
 Nous, développeurs, avons tendance à nous enfermer dans quelque chose qui à mon sens n'est qu'une partie de notre métier.
 
@@ -19,9 +19,8 @@ Symtômes constatés :
 
 Savoir développer, c'est savoir coder, mais pas seulement. C'est aussi :
 
-- Savoir réfléchir (ou ne pas oublier de réfléchir)
+- Savoir penser à réfléchir
 - Savoir communiquer
-- Savoir comprendre et reformuler un besoin
 - Savoir utiliser ses outils
 
 ## Déroulé du talk
@@ -31,7 +30,7 @@ Savoir développer, c'est savoir coder, mais pas seulement. C'est aussi :
     - Tu fais des sites webs en fait ?
     - Ah oui, mon fils a 14 ans il fait comme toi !
     --> Assez réducteur, vision limitée au simple "coding"
-- Et en fait, on a une tendance à s'enfermer là-dedans... Ces clichés sont en partie fondés
+- Et en fait, on a une tendance à s'enfermer là-dedans... Ces clichés sont en partie fondés par notre propre vision de ce métier.
 
 ### Développer n'est pas coder
 - Développer, c'est beaucoup plus qu'écrire du code
@@ -50,14 +49,17 @@ Savoir développer, c'est savoir coder, mais pas seulement. C'est aussi :
     ** Eviter l'auto-handicap (définir, donner un exemple)
         *** "what I know", "what I think people know", "what people really know"
         *** Syndrome de l'imposteur (voir si lien avec auto-handicap)
-    ** On est responsabilisé sur un besoin bien avant l'écriture du code et jusqu'à la prod
+    ** Être responsabilisé sur un besoin bien avant l'écriture du code et jusqu'à la prod
     ** La bonne communication en dehors du boulot favorise la bonne communication au boulot
+        *** Mieux on se connaît, mieux les messages passeront, moins il y aura de malentendus ou d'échanges tendus
     ** Humilité et partage
         *** Communication non violente
-        *** Ne pas infliger de l'aide
+        *** Ne pas infliger de l'aide (problème de posture)
+            **** Parfois la manière dont la personne est vendue par son entreprise favorise une posture condescendante
         *** Pas besoin de perdre du temps avec des débats inutiles (on aime bien faire ça)
         *** SVP, arrêtez avec vos buzzwords sortis de nulle part, d'ailleurs souvent ça cache un manque de confiance en soi (à reformuler correctement pour pas blesser les gens)
             **** "Faut faire du CQRS et de l'Event Sourcing c'est Martin Fowler qui l'a dit alors bon"
+            **** La communication doit être explicite et compréhensible facilement : éviter les communications implicites (celles qui "assoient" un pouvoir par exemple)
     ** Vous n'êtes pas votre code : dur avec le code, doux avec les gens
 
 ### Réfléchir, réfléchir et réfléchir
@@ -68,7 +70,7 @@ Une mère coupe toujours son gigot en deux avant de le mettre dans le four +
 - Pourquoi tu fais ça maman ? +
 - Bah j'ai toujours fait comme ça parce-que ma mère faisait comme ça +
 - Mais le gigot est assez grand non ?
-... On apprendra plus tard que la raison c'est parce-que la mère avait un four trop petit pour un gigot complet
+... On apprendra plus tard que la raison c'est que la grand-mère avait un four trop petit pour faire rentrer un gigot complet
 ____
 * Pragmatisme
     ** Quelle est la meilleure solution pour mon besoin ?
@@ -90,137 +92,7 @@ ____
 Qu'est-ce que tu fais dans la vie ? +
 - Je suis développeur".
 ____
-La réponse à cette question peut souvent paraître floue pour une personne extérieure à notre monde.
-D'ailleurs, j'ai moi-même du mal à y répondre avec précision.
-Et vous, avez-vous vraiment en tête toutes les facettes de notre métier ?
+La réponse grotesque à cette question pourraît être "j'écris du code". C'est d'ailleurs ce que pense la majorité des personnes extérieures à notre monde.
+Serait-ce en partie à cause de nous ? Avons-nous vraiment en tête toutes les facette de notre métier ?
 
-## Message pour le comité
-
-
-
-# Mes notes en vrac
-
-```
-Code Dammit!
-
-- Eviter de se perdre dans son schéma de pensée
-	-> Dessiner, schématiser
-	-> Raccourcis dans l'IDE
-		-> Se forcer à les utiliser : Key promoter
-		-> Key promoter
-		-> Le pair programming permet de rester concentrer : Driver/Navigator -> Le navigator n'est pas contraint par l'outil il est libre de réfléchir
-	- Bonne utilisation de l'outil de versionning
-		-> Petits incréments pour limiter la "charge mentale"
-		-> Git dammit!
-
-- COM-MU-NI-CA-TION
-	- Ne pas avoir peur de poser des questions
-		-> Humilité
-		-> schéma "what I know", "what I think people know", "what people really know"
-	- Savoir se remettre en question
-	- Ne pas infliger de l'aide, VS Eviter le "c'est pas mon taf" -> ne pas se mettre dos à dos
-	- Discuter, s'intéresser aux gens : meilleure communication en dehors du boulot = meilleure commiunication au boulot
-
-
-- Revenir aux bases
-	- Savoir initialiser un projet (comment on reconnait quelqu'un qui fait souvent des Katas ?)
-- Faire des tests
-	- TDD
-		-> Fonctions plus pures
-		-> (trouver d'autres arguments)
-- Avoir une vision assez lointaine de ce qu'on développe
-	-> Développe l'esprit critique
-	-> responsabilise le développeur
-	-> Limite le "bus factor"
-- Avoir confiance en son code
-	-> Tests
-	-> Je dois pouvoir casser du code et être alerté -> jouer avec le code
-- Réfléchir
-	-> Pourquoi je fais ça ?
-	-> Pourquoi faire ?
-	-> Exemple du gigot coupé en deux dans le four
-	-> Un enfant pose tout le temps la questions "pourquoi" -> "parce-que c'est comme ça" - MAUVAISE REPONSE
-- Vous n'êtes pas votre code. Dur avec le code, doux avec les gens
-	-> faire preuve de bienveillance
-	-> Exemples...
-- Revue de code
-	- ...
-- Méthode RoundUp => On tape dans le tas
- - Maîtriser ses outils
-Fonctions petites, ok ; fonctions trop petites, non!
-Quand mon fils Chaussera du 44 je lui achèterai les chaussures adaptées
-- Trop factoriser c'est pas bien
-- plier son code
-- multi-curseur
-- limiter les débats (inutiles) de style, etc... non t'as pas la plus grosse
--
-
-
-Bien travailler avec ses outils
-	- Pourquoi ?
-		- pour éviter de se perdre dans son schéma de pensée
-		- Etre rapide et efficace
-	- Comment ?
-		- Se forcer à utiliser les fonctionnalités de ses outils
-			- Key promoter
-			- Pair programming (permet de partager)
-		- Maîtriser l'outil de versionning (Git Dammit!)
-
-Bien travailler avec les autres
-
-Bien travailler avec soi-même
-
---
-
-Talk : Je suis développeur
-Titre alternatif: "Qu'est-ce que tu fais dans la vie ?"
-
-- Abstract "Qu'est-ce que tu fais dans la vie ? - Je suis développeur". La réponse à cette question peut souvent paraître floue pour une personne extérieure à notre monde. Mais au fait, avez-vous vraiment en tête toutes les facettes de notre métier ?
-
-- La vision que les autres ont de notre métier
-    - Assez réductrice
-    - "pisseur de code"
-    - "Ah mon fils aussi fait des sites webs, il a 14 ans il adore ça !"
-- Ecrire du code, c'est un petit pourcentage du temps alloué à notre métier
-- Lister les qualités requises pour bien exercer le métier de développeur
-    - On aime les choses bien faites (trop ? Peut devenir un défaut)
-    - La passion
-        - Dopage émotionnel, augmente notre performance
-        - Peut parfois mener à la surexcitation, overengineering (j'ai fait ça au cas où... Good bike / bad bike)
-    - Esprit critique
-        - On développe une solution à un problème et pas "sur un framework"
-            - Bannissez moi le terme "Développeur Angular" svp
-    - Communication
-        - Savoir écouter, comprendre, reformuler
-        - Savoir exprimer ses idées avec précision
-            - Un malentendu peut faire perdre du temps et donc de l'argent + frustration
-    - Savoir apprendre, rester à jour
-        - Partager avec la communauté
-        - Rares sont les métiers où la communauté est si présente
-    - Bienveillance
-        - Dur avec le code, doux avec les gens
-    - Prévoyant
-        - Les décisions peuvent changer d'un jour à l'autre... prévoir orthogonalité et réversibilité
-
-
---
-
-Psychologie !
-- télomères petits si stress https://nathalierapoporthubschman.com/2016/02/14/meditation-et-sante-les-effets-antistress-de-la-meditation-sur-les-chromosomes/
-- Recherche d'automatisation ! nage kata no kata
-- Amour et compassion : Environnement plus important que le mental (trouver des exemples)
-- Enlever la toxicité pour augmenter la performance => Si j'aime pas faire un truc je vais mal le faire
-- "On a toujours fait comme ça" NOPE
-- approche holistique (creuser)
-- Principe de Peter (explication par quelqu'un qui sait pas trop mais qui croit qui sait tout)
-- Entretien semi-dirigé : qu'est-ce que j'aime vraiment faire ? En tirer des conclusions
-- Copier les bons, c'est bien et nécessaire
-- Dopage émotionnel => nous permet d'être plus productif. Ex: le stress de la deadline (des exams, etc) augmente la concentration.
-- Découpage de grosses tâches en petites (Petits jeux).
-- Confiance en soi = notion de temps passé à continuer à rater (pour sûrement au final réussir)
-- Engagement (charge)
-- Auto handicap : défense psychique protégeant l'estime de soi ou l'image de soi envers autrui, particulièrement versus inquiétude, peur, mesure note / groupe etc..
-- Paresse sociale : Expérience de Maximilien Ringelmann (les boeufs qui tractent) + effet témoin (expérience de la fumée sur les pompiers, qui se connaissent, 2+1, etc..)
-- Pyramide de Maslow (à quoi l'argent que je gagné me sert dans cette pyramide)
-
-```
+Dans cette présentation nous essayerons de nous recentrer sur ce qui est vraiment attendu de notre travail et comment se faciliter la tâche.
